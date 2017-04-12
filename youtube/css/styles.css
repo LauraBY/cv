@@ -1,0 +1,129 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.hide {
+    display: none;
+}
+
+body {
+    font-family: sans-serif;
+    background-color: #0a1237;
+    color: #172b69;
+}
+
+.search {
+    width: 55vw;
+    margin: 0 auto;
+    padding: 15px;
+}
+
+.query {
+    position: relative;
+    width: 80%;
+    padding: 0 0 0 50px;
+    height: 38px;
+    border: none;
+    border-radius: 30px 0 0 30px;
+}
+
+.search::before {
+    content: " ";
+    position: absolute;
+    background: url(../img/search.png) no-repeat;
+    background-size: contain;
+    display: inline-block;
+    width: 28px;
+    height: 28px;
+    margin: 5px;
+    z-index: 1;
+}
+
+.btm {
+    padding: 0;
+    font-weight: bold;
+    width: 16.5%;
+    height: 38px;
+    background-color: #e8a93f;
+    border-radius: 0 30px 30px 0;
+    border-style: none;
+    cursor: pointer;
+}
+
+.btm:hover {
+    background-color: #cf8404;
+}
+
+ul {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px;
+}
+
+li {
+    display: block;
+    margin-bottom: 3em;
+    position: relative;
+    max-width: 320px;
+    height: 350px;
+    border: 1px solid white;
+    border-radius: 10px;
+    background-color: rgb(255, 255, 255);
+}
+
+h4 {
+    background-color: #e8a93f;
+    padding: 5px;
+    min-width: 320px;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+}
+
+li>a {
+    display: block;
+}
+
+li>a img {
+    border-radius: 10px 10px 0 0;
+}
+
+ul.discription {
+  display: block;
+  padding: 50px 10px 5px;
+}
+
+
+
+ul.discription li.views {
+  background: url(../img/eye-icon.png) no-repeat;
+  background-size: contain;
+  height: 25px;
+}
+
+ul.discription li.like {
+  background: url(../img/like-icon.png) no-repeat;
+  background-size: contain;
+  height: 25px;
+
+}
+
+ul.discription li.dislike {
+  background: url(../img/dislike-icon.png) no-repeat;
+  background-size: contain;
+  height: 25px;
+
+}
+
+ul.discription li {
+    text-align: left;
+    line-height: 25px;
+    height: auto;
+    background: none;
+    border-style: none;
+    margin: 5px;
+    padding-left: 30px;
+}

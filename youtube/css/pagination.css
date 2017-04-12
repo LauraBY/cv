@@ -1,0 +1,22 @@
+.pagination {
+    width: 55px;
+    margin: 0 auto;
+    padding: 5px 5px 20px;
+}
+
+.pagination a {
+    display: none;
+}
+
+.pagination a.active {
+    display: inline;
+    width: 25px;
+    height: 40px;
+    text-decoration: none;
+    color: #0a1237;
+    background: #e8a93f;
+}
+
+.pagination a.active:hover {
+    background: #cf8404;
+}

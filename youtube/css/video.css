@@ -1,0 +1,23 @@
+.video {
+    position: fixed;
+    left: 0;
+    top: 0;
+    max-width: 100%;
+    max-width: 100%;
+    background: rgba(0, 0, 0, 0.77);
+    z-index: 2;
+}
+
+.video .close {
+  position: absolute;
+  right: 0;
+  color: #172b69;
+  background-color: #e8a93f;
+  font-size: 90%;
+  border-style: none;
+  border-radius: 100%;
+  min-width: 18px;
+}
+.video .close:hover {
+  background-color: #cf8404;
+}
